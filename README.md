@@ -4,4 +4,6 @@
 * 支持单条弹幕在屏幕上的 显示时间设置
 
 效果图如下
+
+
 ![image](https://github.com/v1210012100/MyImages/blob/master/device-2019-09-20-135240.gif)
