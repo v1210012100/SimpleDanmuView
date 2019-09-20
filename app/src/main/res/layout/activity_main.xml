@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"/>
+    <com.example.diva.simpledanmuview.danmu.SimpleDanmuView
+        android:layout_width="match_parent"
+        android:id="@+id/simple_danmu_view"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#edcece"
+        android:id="@+id/pause_bt"
+        android:text="暂停"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#457895"
+        android:layout_alignParentRight="true"
+        android:id="@+id/resume_bt"
+        android:text="继续播放"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#d40c4f"
+        android:layout_marginRight="100dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/hide"
+        android:text="隐藏"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#d40c4f"
+        android:layout_marginRight="180dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/show"
+        android:text="显示"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="#457895"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/seek_bt"
+        android:text="seek"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
